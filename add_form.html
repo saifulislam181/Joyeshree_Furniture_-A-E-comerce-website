@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Contact</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color: gray; padding: 2%;">
+	<h1>Insert New Contact Info</h1>
+	<h4>The data will be inserted into the main database</h4>
+</div>
+<br>
+	<div class="ui text container">
+    	<form class="ui form" method="post" action="db/insert.php">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" name="name_entry" placeholder="Contact Title">
+      </div>
+      <div class="field">
+        <label>Size</label>
+        <input type="text" name="phone_entry" placeholder="Contact Size">
+      </div>
+      <div class="field">
+        <label>Price</label>
+        <input type="text" name="address_entry" placeholder="Contact Price">
+      </div>
+	  <div class="field">
+        <label>configaration</label>
+        <input type="text" name="con_entry" placeholder="Contact configaration">
+      </div>
+	  <div class="field">
+        <label>Available</label>
+        <input type="text" name="avail_entry" placeholder="Contact Available">
+      </div>
+
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+</div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html>

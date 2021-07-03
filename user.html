@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Well Come For Regestration</title>
+  <link rel="stylesheet" href="css/semantic.min.css">
+</head>
+
+<body>
+
+<div style="background-color: green; padding: 2%;">
+	<h1>Please Give The Iformation About You</h1>
+	<h4>This Data will be secure for your security</h4>
+</div>
+<br>
+	<div class="ui text container">
+    	<form class="ui form" method="post" action="db/user_insert.php">
+      <div class="field">
+        <label>Name</label>
+        <input type="text" name="name_entry" placeholder="Contact Title">
+      </div>
+	  <div class="field">
+        <label>phone</label>
+        <input type="text" name="phone_entry" placeholder="Give phone number">
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input type="text" name="email_entry" placeholder="Email">
+      </div>
+	  <div class="field">
+        <label>Password</label>
+        <input type="text" name="pass_entry" placeholder="Give password">
+      </div>
+      
+
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+</div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/semantic.min.js"></script>
+</body>
+
+</html>
